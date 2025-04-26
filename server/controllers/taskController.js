@@ -23,3 +23,13 @@ exports.deleteTask = async (req, res) => {
   await Task.findByIdAndDelete(req.params.id);
   res.json({ message: "Task deleted" });
 };
+// Delete all tasks for a project
+exports.deleteAllTasks = async (req, res) => {
+  const { projectId } = req.params;
+  try {
+    await Task.deleteMany({ projectId });
+    res.json({ message: "All tasks deleted" });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};

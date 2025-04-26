@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility classes */
+.input {
+  @apply w-full p-2 border rounded dark:bg-gray-700 dark:text-white;
+}
+.btn {
+  @apply w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700;
+}
+.card {
+  @apply p-4 bg-white dark:bg-gray-800 rounded-lg shadow;
+}
