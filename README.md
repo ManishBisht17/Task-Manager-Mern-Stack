@@ -1,8 +1,8 @@
-📝 Task Manager (MERN Stack)
+<h1>📝 Task Manager (MERN Stack)</h1>
 A full-stack Task Manager application built with MongoDB, Express.js, React, and Node.js.
 Manage your daily tasks easily with a clean UI and responsive design.
 
-🚀 Features
+<h1>🚀 Features </h1>
 Add, update, delete tasks
 
 Mark tasks as completed
@@ -13,50 +13,36 @@ Dark mode support
 
 Persistent storage with MongoDB
 
-🛠️ Tech Stack
-Frontend: React, Vite, Tailwind CSS (optional if used), React Icons
+<h1>🛠️ Tech Stack</h1>
+Frontend: React, Vite, React Icons , axios
 
 Backend: Node.js, Express.js
 
 Database: MongoDB
 
 📂 Project Structure
-scss
-Copy
-Edit
+
 root
 │
 ├── client   → Frontend (React)
 └── server   → Backend (Express, Node.js)
-⚙️ Installation and Setup
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2. Set up the Client (Frontend)
-bash
-Copy
-Edit
-cd client
-npm install
-npm run dev
-This will start the frontend at http://localhost:5173 (or a similar port).
-
-3. Set up the Server (Backend)
-Open a new terminal:
-
-bash
-Copy
-Edit
+<h1>⚙️ Installation and Setup</h1>
+1. Set up the Server(Backend) 
 cd server
 npm install
 node server.js
-This will start your backend server at http://localhost:5000 (or as configured).
+
+
+
+2. Set up the Client (Frontend)
+cd client
+npm install
+npm run dev
+
+
 
 🌐 Deployment
-You can deploy the project using platforms like Render, Vercel, Railway, or Netlify (for frontend only).
+You can deploy the project using platform Vercel
 
 📄 Environment Variables
 Make sure to configure your MongoDB connection string in the server. Create a .env file inside server/:
@@ -66,6 +52,7 @@ Copy
 Edit
 MONGO_URI=your-mongodb-connection-url
 PORT=5000
+JWT_SECRET = ......
 ✨ Acknowledgements
 React
 
