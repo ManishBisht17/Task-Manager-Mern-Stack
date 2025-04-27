@@ -5,7 +5,7 @@ Manage your daily tasks easily with a clean UI and responsive design.
 👉 http://task-manager-mern-stack-bihw.vercel.app
 
 <h1>🚀 Features </h1>
-Add , update, delete tasks and Projects ,User SignIn, SignUp ,JWT Authencation ,database , Project progress state
+Add , update, delete tasks and Projects ,User SignIn, SignUp ,JWT Authencation ,Database , Project progress state
 
 Mark tasks as completed
 
@@ -54,6 +54,7 @@ MONGO_URI=your-mongodb-connection-url
 PORT=5000
 JWT_SECRET = ......
 ✨ Acknowledgements
+
 React
 
 Express
