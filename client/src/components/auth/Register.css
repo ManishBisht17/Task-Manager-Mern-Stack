@@ -132,3 +132,15 @@
   margin: 16px 0;
   font-size: 14px;
 }
+#confirmPassword {
+  color: rgb(146, 121, 121);
+  background-color: whitesmoke;
+}
+#name {
+  color: rgb(146, 121, 121);
+  background-color: whitesmoke;
+}
+#country {
+  color: rgb(146, 121, 121);
+  background-color: whitesmoke;
+}

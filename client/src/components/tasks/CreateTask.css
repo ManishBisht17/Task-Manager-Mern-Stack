@@ -79,3 +79,19 @@
   color: #dc2626;
   margin-bottom: 16px;
 }
+#description {
+  color: rgb(146, 121, 121);
+  background-color: whitesmoke;
+}
+#title {
+  color: rgb(146, 121, 121);
+  background-color: whitesmoke;
+}
+#status {
+  color: rgb(146, 121, 121);
+  background-color: whitesmoke;
+}
+.body {
+  width: 100%;
+  height: 100%;
+}

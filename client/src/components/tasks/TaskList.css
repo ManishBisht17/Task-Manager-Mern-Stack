@@ -133,21 +133,23 @@
 }
 
 .status-in-progress {
-  background-color: #ffc107;
+  background-color: #daca9b;
   color: white;
 }
 
 .status-pending {
-  background-color: #dc3545;
+  background-color: #5ab8e0;
   color: white;
 }
 
 .task-description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 10px;
   font-size: 14px;
 }
 
 .task-dates {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 10px;
   font-size: 14px;
   color: #777;
@@ -173,11 +175,11 @@
 }
 
 .btn-success {
-  background-color: #28a745;
+  background-color: #a3e5b3;
 }
 
 .btn-danger {
-  background-color: #dc3545;
+  background-color: #f9a1aa;
 }
 
 .btn-text {

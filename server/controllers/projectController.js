@@ -5,7 +5,7 @@ exports.createProject = async (req, res) => {
   const userId = req.user._id;
 
   const count = await Project.countDocuments({ userId });
-  if (count >= 4)
+  if (count >= 3)
     return res.status(400).json({ error: "Only 4 projects allowed" });
 
   const project = await Project.create({ title, userId });
