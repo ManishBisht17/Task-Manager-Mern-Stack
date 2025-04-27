@@ -1,0 +1,40 @@
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.project-card.hovered {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #7c3aed;
+}
+
+.project-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.project-details p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.project-tasks-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #7c3aed;
+  transition: color 0.3s;
+}
+
+.project-tasks-link:hover {
+  color: #5b21b6;
+}

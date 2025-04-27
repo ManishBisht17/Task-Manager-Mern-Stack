@@ -1,0 +1,91 @@
+.projects-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.projects-header h2 {
+  font-size: 26px;
+  color: #333;
+  font-weight: 500;
+}
+
+.create-project-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.no-projects {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.no-projects p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #666;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Reuse existing styles */
+.error-message {
+  background-color: #ffe0e0;
+  color: #d00000;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #7c3aed;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #5b21b6;
+}
+
+.btn-text {
+  background: none;
+  color: #7c3aed;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.btn-text:hover {
+  color: #5b21b6;
+}

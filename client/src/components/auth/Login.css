@@ -1,0 +1,100 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.auth-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #555;
+}
+
+.form-group input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #7c3aed;
+  outline: none;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-link a {
+  color: #7c3aed;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.auth-link a:hover {
+  color: #5b21b6;
+}
+
+/* Reuse common styles */
+.error-message {
+  background-color: #ffe0e0;
+  color: #d00000;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #7c3aed;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #5b21b6;
+}
