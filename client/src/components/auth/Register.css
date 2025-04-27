@@ -58,7 +58,7 @@
   width: 100%;
   max-height: 200px;
   overflow-y: auto;
-  background: white;
+  background: rgb(103, 203, 189);
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-top: 5px;

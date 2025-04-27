@@ -5,6 +5,10 @@
   padding: 20px;
   background-color: #f9f9f9;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .tasks-header {
   display: flex;
@@ -24,9 +28,11 @@
 }
 
 .tasks-header h2 {
+  font-family: serif;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
+  color: rgb(7, 8, 8);
 }
 
 .btn {
@@ -190,4 +196,22 @@
 .btn-small {
   padding: 6px 12px;
   font-size: 12px;
+}
+.app-header,
+header,
+.task-manager-header {
+  width: 100%;
+
+  height: auto; /* or a specific height like 64px */
+  background-color: #7c3aed;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

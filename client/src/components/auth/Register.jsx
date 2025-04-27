@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import * as authService from "../services/auth.service";
-import "./Register.css"; // ✅ normal CSS import
+import "./Register.css";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -32,23 +32,7 @@ const Register = () => {
         setCountries(sortedCountries);
       } catch (err) {
         console.error("Failed to fetch countries:", err);
-        setCountries([
-          "United States",
-          "Canada",
-          "United Kingdom",
-          "Australia",
-          "India",
-          "Germany",
-          "France",
-          "Brazil",
-          "Japan",
-          "China",
-          "Spain",
-          "Italy",
-          "Russia",
-          "Mexico",
-          "South Africa",
-        ]);
+        setCountries([]);
       }
     };
 
