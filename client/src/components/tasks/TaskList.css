@@ -1,8 +1,10 @@
 /* TaskList Component */
 .tasks-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 48px auto;
   padding: 20px;
+  height: 100vh;
+  width: 100%;
   background-color: #f9f9f9;
 }
 body {
@@ -58,7 +60,7 @@ body {
   margin: 0 5px;
   background-color: #e0e0e0;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   cursor: pointer;
   font-size: 14px;
 }

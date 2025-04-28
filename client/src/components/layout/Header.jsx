@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo" onClick={() => navigate("/projects")}>
-        Task Manager
+        Task Tracker
       </div>
       {currentUser && (
         <div className="user-menu">

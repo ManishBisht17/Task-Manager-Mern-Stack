@@ -86,7 +86,7 @@
 
 .btn-icon:hover {
   background-color: #eeeeee;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .btn-primary {
