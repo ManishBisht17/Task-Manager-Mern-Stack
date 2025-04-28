@@ -37,7 +37,6 @@ const ProjectList = () => {
   return (
     <div className="projects-container">
       <div className="projects-header">
-        <h2>My Projects</h2>
         {projects.length < 4 && !showCreateForm && (
           <button
             className="btn btn-primary"
