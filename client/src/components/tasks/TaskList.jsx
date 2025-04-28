@@ -60,15 +60,18 @@ const TaskList = () => {
     <div className="tasks-container">
       <div className="tasks-header">
         <Link to="/projects" className="back-link">
-          <FaArrowLeft /> Back to Projects
+          <FaArrowLeft /> Projects
         </Link>
         <h2>Project Tasks</h2>
-        <button
-          className="btn btn-primary"
-          onClick={() => setShowCreateForm(true)}
-        >
-          <FaPlus /> New Task
-        </button>
+
+        {tasks.length !== 0 && (
+          <button
+            className="btn btn-primary"
+            onClick={() => setShowCreateForm(true)}
+          >
+            <FaPlus /> New Task
+          </button>
+        )}
       </div>
 
       {error && <div className="error-message">{error}</div>}
