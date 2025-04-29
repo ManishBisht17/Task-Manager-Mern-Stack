@@ -11,6 +11,12 @@ exports.createProject = async (req, res) => {
   const project = await Project.create({ title, userId });
   res.status(201).json(project);
 };
+exports.deleteProject = async (req, res) => {
+  await Project.findByIdAndDelete();
+  res.json({
+    message: "project deleted successfully",
+  });
+};
 
 exports.getProjects = async (req, res) => {
   const projects = await Project.find({ userId: req.user._id });
